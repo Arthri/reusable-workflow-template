@@ -11,8 +11,8 @@ on:
       - master
 
 jobs:
-  publish_release_request:
-    name: ${{ github.event.action == 'closed' && 'Publish ' || 'Verify ' }}Release Request
+  handle_release_request:
+    name: ${{ github.event.action == 'closed' && 'Resolve ' || 'Verify ' }}Release Request
     permissions:
       contents: write
     uses: Arthri/release_request/.github/workflows/release_request.yml@v1
