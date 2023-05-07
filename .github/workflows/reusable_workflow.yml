@@ -12,3 +12,6 @@ jobs:
   reusable_workflow:
     runs-on: ubuntu-22.04
     timeout-minutes: 1
+
+    steps:
+      - run: echo Hello, World!
