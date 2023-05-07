@@ -1,0 +1,14 @@
+name: New Reusable Workflow
+run-name: New Reusable Workflow
+
+on:
+  workflow_call:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  reusable_workflow:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 1
