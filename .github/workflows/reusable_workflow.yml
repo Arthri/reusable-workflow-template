@@ -9,7 +9,7 @@ defaults:
     shell: bash
 
 jobs:
-  reusable_workflow:
+  reusable-workflow:
     runs-on: ubuntu-22.04
     timeout-minutes: 1
 
