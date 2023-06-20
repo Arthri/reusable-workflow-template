@@ -1,4 +1,4 @@
-# reusable_workflow
+# reusable-workflow
 A reusable workflow for doing x, y, and z.
 
 ## Installation
@@ -11,8 +11,8 @@ on:
   push:
 
 jobs:
-  reusable_workflow:
-    uses: Arthri/reusable_workflow/.github/workflows/reusable_workflow.yml@v1
+  reusable-workflow:
+    uses: Arthri/reusable-workflow/.github/workflows/reusable-workflow.yml@v1
 
 ```
 
